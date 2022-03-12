@@ -5,10 +5,12 @@ Custom Python mapper for Midi-based controller in SVDX.
 
 [winkeys.py](winkeys.py) is a custom input wrapper for sending keyboard keys
 
-[play!.bat](play!.bat) is my shortcut to launch USC or SVDX.
+[play!.bat](play!.bat) is my shortcut to launch [USC](https://github.com/Drewol/unnamed-sdvx-clone) or SVDX.
 
 # Usage
-1. Put the files into your USC game folder.
+0. Install [Python](https://www.python.org/downloads/) and the `requirements.txt`
+    - With `python -m pip install -r requirements.txt`. Can use it under VENV if you want, and edit the "[play!.bat](play!.bat)" if so.
+1. Put the files into your [USC](https://github.com/Drewol/unnamed-sdvx-clone) game folder (where `usc-game.exe` is located)
 2. Launch the "[play!.bat](play!.bat)", you should get this window :
 ![img.png](img.png)
    
